@@ -7,7 +7,7 @@ import BookCard from './components/BookCard';
 import CartSection from './components/CartSection';
 import ProductDetail from './components/ProductDetail';
 import initialBooks  from './data/data';
-import './app.css';
+import './App.css';
 
 const App = () => {
   const [books, setBooks] = useState(initialBooks);
